@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Register</h1>
+      <a href="index.html">Back to Homepage</a>
+    </div>
+  </header>
+
+  <section class="registration-form-section">
+    <div class="container">
+      <h2>Create an Account</h2>
+      <form id="registration-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <label for="role">Select Role:</label>
+        <select id="role" name="role" required>
+          <option value="">Choose a role</option>
+          <option value="client">Client</option>
+          <option value="vendor">Vendor</option>
+          <option value="admin">Admin</option>
+        </select>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Event Management System. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/client.css">
+
+    <script src="js/client.js" defer></script>
+</head>
+<body>
+    <header class="dashboard-header">
+        <h1>Welcome, Client!</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="event-booking.html">Book Event</a></li>
+                <li><a href="login.html">Logout</a></li>
+                <li><a href="feedback.html">Feedback and Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard-main">
+        
+        <!-- Cards Section -->
+        <section class="dashboard-cards">
+            <div class="card">
+                <h3>Upcoming Events</h3>
+                <p>You have 2 upcoming events.</p>
+                <button>View Events</button>
+            </div>
+            <div class="card">
+                <h3>Budget Tracker</h3>
+                <p>Track your expenses and budget here.</p>
+                <button onclick="location.href='budget-tracker.html'">Manage Budget</button>
+            </div>
+            <div class="card">
+                <h3>Task Tracker</h3>
+                <p>Stay on top of your tasks and deadlines.</p>
+                <button>View Tasks</button>
+            </div>
+            <div class="card">
+                <h3>Explore</h3>
+                <p>You have 2 upcoming events.</p>
+                <button onclick="location.href='vendor.html'">Explore Vendors</button>
+            </div>
+        </section>
+
+        <!-- Calendar Section -->
+        <section class="calendar-section">
+            <h2>Your Schedule</h2>
+            <p>Here’s a summary of your event dates.</p>
+            <div class="calendar-placeholder">
+                <p>Calendar Placeholder</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="dashboard-footer">
+        <p>© 2024 Event Management System. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>

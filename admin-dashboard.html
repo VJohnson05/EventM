@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <!-- Admin Dashboard Navigation -->
+  <header class="admin-header">
+    <h1>Admin Dashboard</h1>
+    <nav class="admin-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#dashboard-overview">Dashboard Overview</a></li>
+        <li><a href="#user-management">User Management</a></li>
+        <li><a href="#category-management">Category Management</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Dashboard Overview Section -->
+  <section id="dashboard-overview" class="dashboard-overview">
+    <h2>Overview</h2>
+    <div class="overview-cards">
+      <div class="card">
+        <h3>Total Users</h3>
+        <p id="total-users">50</p>
+      </div>
+      <div class="card">
+        <h3>Events Managed</h3>
+        <p id="total-events">120</p>
+      </div>
+      <div class="card">
+        <h3>Total Revenue</h3>
+        <p id="total-revenue">$15,000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- User Management Section -->
+  <section id="user-management" class="user-management">
+    <h2>User Management</h2>
+    <button id="add-user-btn">Add User</button>
+    <table>
+      <thead>
+        <tr>
+          <th>User ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="user-table">
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td>john@example.com</td>
+          <td>Client</td>
+          <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Category Management Section -->
+  <section id="category-management" class="category-management">
+    <h2>Category Management</h2>
+    <button id="add-category-btn">Add Category</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Category ID</th>
+          <th>Category Name</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="category-table">
+        <tr>
+          <td>1</td>
+          <td>Weddings</td>
+          <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
