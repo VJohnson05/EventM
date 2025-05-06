@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback and Support</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/feedback.css">
+
+    <script src="js/feedback.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Feedback and Support</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="client-dashboard.html">Go to Client Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="feedback-form">
+            <h2>We Value Your Feedback</h2>
+            <form id="feedback-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="rating">Rating:</label>
+                <select id="rating" required>
+                    <option value="" disabled selected>Rate our services</option>
+                    <option value="5">Excellent (5 Stars)</option>
+                    <option value="4">Very Good (4 Stars)</option>
+                    <option value="3">Good (3 Stars)</option>
+                    <option value="2">Fair (2 Stars)</option>
+                    <option value="1">Poor (1 Star)</option>
+                </select>
+
+                <label for="message">Your Feedback/Query:</label>
+                <textarea id="message" rows="4" placeholder="Share your feedback or ask a question" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

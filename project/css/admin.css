@@ -1,0 +1,100 @@
+/* Admin Header Styling */
+.admin-header {
+    background: linear-gradient(45deg, #6c63ff, #ff6584);
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .admin-header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .admin-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+  }
+  
+  .admin-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .admin-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Overview Section Styling */
+  .dashboard-overview {
+    padding: 2rem;
+    background: #f8f9fa;
+  }
+  
+  .overview-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    color: #6c63ff;
+  }
+  
+  /* User and Category Management */
+  .user-management, .category-management {
+    padding: 2rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #6c63ff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #05e4b8;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  table th {
+    background: #6c63ff;
+    color: #ffffff;
+  }
+  
+  .edit-btn {
+    background: #2b5cee;
+  }
+  
+  .delete-btn {
+    background: #f33649;
+  }
+  

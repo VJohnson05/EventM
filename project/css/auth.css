@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Auth Section */
+.auth-section {
+  margin: 40px 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.auth-section h2 {
+  margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-size: 1rem;
+  text-align: left;
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"],
+form select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #6c63ff;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff6584;
+}
+
+#toggle-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#toggle-btn:hover {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+/* Role Selection - Radio Buttons */
+.role-options {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.role-options label {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.role-options input[type="radio"] {
+  margin-right: 6px;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
